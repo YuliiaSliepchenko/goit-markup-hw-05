@@ -54,7 +54,7 @@ img {
 /* header */
 
 
-.backdrop{
+.modal-wrap{
   position: fixed;
   left: 0;
   top: 0;
@@ -64,7 +64,7 @@ img {
   z-index: 999;
 }
 
-.backdrop.is-hiden {
+.modal-wrap.is-hiden {
   opacity: 0;
   pointer-events: none; 
 
