@@ -125,6 +125,7 @@ transition: transform 250ms ease;
 .site-nave {
   display: flex;
   align-items: center;
+  transition: transform 250ms cubic-bezier(0.4,0,0.2,1);
 }
 .site-nave.list {
     padding-left: 94px;
@@ -799,17 +800,18 @@ button {
   transform: translateY(100%);
   height: 24%;
   width: 100%;
-  display: flex;
-  /* opacity: 0; */
+   /* opacity: 0; */
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-
+  line-height: 1.1428;
+  
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  line-height: 1.1428;
   background: rgba(47, 48, 58, 0.8);
   color: var(--primary-white-color);
  
+  display: flex;
+  justify-content: center;
   text-align: center;
   padding: 27px 90px;
   overflow: auto;
